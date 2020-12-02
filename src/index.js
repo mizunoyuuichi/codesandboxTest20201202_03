@@ -72,3 +72,31 @@
 // console.log(func3(10, 30));
 
 // 分割代入
+// const myProfile = {
+//   name: "jyakee",
+//   age: 28,
+// }
+// const message1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`
+// console.log(message1)
+
+// const { name, age } = myProfile // 取り出す
+// const message2 = `名前は${name}です。年齢は${age}歳です。`
+// console.log(message2)
+
+// 配列の場合
+// const myProfile = ['jyakee', 28]
+// const message3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`
+// console.log(message3)
+
+// const [ name, age ] = myProfile
+// const message4 = `名前は${name}です。年齢は${age}歳です。`
+// console.log(message4) // 1, 3番目を使いたい場合、どうなる、、、できないかも
+
+// // デフォルト値
+// const sayHello = (name = "デフォルト値") => console.log(`こんにちは${name}さん！`)
+// sayHello('ジャック')
+// sayHello()
+
+// スプレット構文 ...
+const arr1 = [1, 2];
+console.log(arr1);
